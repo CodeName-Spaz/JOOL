@@ -28,7 +28,13 @@ page-book {
 
     .btn{
         background: transparent;
-        color: white;
+        color: rgb(235, 136, 54);
+        font-size: 20px;
+        text-shadow: 0 0 10px black;
+    }
+    .btn:active{
+        background: transparent;
+        color: rgb(248, 172, 110);
         font-size: 20px;
         text-shadow: 0 0 10px black;
     }
@@ -73,5 +79,16 @@ page-book {
     .subTitle{
         text-align: left;
         font-size: 16px;
+    }
+    .icon{
+        height: 16px;
+        margin-left:5px;
+    }
+    .toPad{
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:5px;
+        padding-bottom:5px;
+
     }
 }

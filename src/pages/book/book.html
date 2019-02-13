@@ -12,7 +12,7 @@
 
 <ion-content>
   <ion-fab top left>
-    <button class="btn">
+    <button class="btn" (click)="goBack()">
       <ion-icon name="arrow-back"></ion-icon>
     </button>
   </ion-fab>
@@ -22,32 +22,36 @@
     </button>
   </ion-fab>
   <div class="prof">
-      <h4 id="name">John Doe</h4>
+    <h4 id="name">John Doe</h4>
 
     <img src="../../assets/imgs/Watches/DP/me.png" class="DP" alt="">
     <div class="overlay"></div>
     <img src="../../assets/imgs/Watches/DP/me.png" alt="" class="profPic">
   </div>
   <div class="restOf" padding>
-      <h4 class="subTitle">Address</h4>
-      <div padding id="card">
-        4877 Ugago Street <br>
-        Protea Glen Ext 3 <br>
-        Soweto <br>
-        1818 <br>
-        <b>South Africa</b>
-      </div>
-      <h4 class="subTitle">Contact Details</h4>
-      <div padding id="card">
-        spazgrafficz@outlook.com <br>
-        0813917127
-      </div>
-      <h4 class="subTitle">Account Details</h4>
-      <div id="card">
-        <ion-item no-lines>
-          <ion-label>Account type</ion-label>
+    <h4 class="subTitle">Address</h4>
+    <div padding id="card">
+      4877 Ugago Street <br>
+      Protea Glen Ext 3 <br>
+      Soweto <br>
+      1818 <br>
+      <b>South Africa</b>
+    </div>
+    <h4 class="subTitle">Contact Details</h4>
+    <div padding id="card">
+      spazgrafficz@outlook.com <br>
+      0813917127
+    </div>
+    <h4 class="subTitle">Account Details</h4>
+    <div id="card">
+      <div id="card" class="toPad">
+        <p class="subTitle">
+          MasterCard <img src="../../assets/icon/5a3a1f0bad6c83.72606706151375847571044779.png" alt="" class="icon">
+        </p>
+        <p>xxxx-8085</p>
 
-        </ion-item>
       </div>
+    </div>
   </div>
+  <button ion-button full color="sec">My Orders</button>
 </ion-content>

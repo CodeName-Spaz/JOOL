@@ -22,4 +22,7 @@ export class BookPage {
     console.log('ionViewDidLoad BookPage');
   }
 
+  goBack(){
+    this.navCtrl.pop();
+  }
 }
